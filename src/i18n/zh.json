@@ -1,6 +1,6 @@
 {
   "locale": "English",
-  "mirror": "南京大学开源镜像站",
+  "mirror": "重庆文理学院开源镜像站",
   "header": {
     "mirrors": "镜像列表",
     "downloads": "下载",
@@ -38,7 +38,7 @@
   "footer": {
     "maintainer": "本镜像站由{name}维护",
     "developer": "前端由{name}构建",
-    "special": "特别感谢：tuna（文档参考）",
+    "special": "特别感谢：tuna（文档参考）、NJU Mirror（样式参考）",
     "bug": "反馈问题",
     "source": "源代码",
     "lug": "NJU.LUG"

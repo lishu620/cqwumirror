@@ -17,16 +17,16 @@ function handleSelect(key: string) {
   <NSpace justify="space-between">
     <div>
       <NP class="footer-text">{{
-        t('footer.maintainer', { name: '@yaoge123' })
+        t('footer.maintainer', { name: '@m1ishu' })
       }}</NP>
       <NP class="footer-text">{{
-        t('footer.developer', { name: 'Iori@LinuxUserGroup' })
+        t('footer.developer', { name: 'm1ishu@netlab' })
       }}</NP>
       <NP class="footer-text">{{ t('footer.special') }}</NP>
     </div>
     <NButtonGroup vertical>
       <FeedbackButton />
-      <NButton text @click="handleSelect('https://github.com/iori2333/Mira')">
+      <NButton text @click="handleSelect('https://github.com/lishu620/cqwumirror')">
         <template #icon>
           <NamedIcon name="code" :size="16" />
         </template>
@@ -40,7 +40,7 @@ function handleSelect(key: string) {
       </NButton>
     </NButtonGroup>
   </NSpace>
-  <NP>人工微结构科学与技术协同创新中心 苏ICP备10085945-1号 南信备568号</NP>
+  <NP>重庆文理学院网络俱乐部</NP>
 </template>
 
 <style scoped lang="less">

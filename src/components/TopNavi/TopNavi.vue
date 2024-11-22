@@ -17,7 +17,7 @@ import { NewspaperOutline, MenuOutline } from '@vicons/ionicons5';
 
 import { useMutableRef } from '@/hooks';
 import { useStore } from '@/store';
-import logo from '@/assets/nju.png';
+import logo from '@/assets/cqwu.png';
 
 import SideBar from '@/components/SideBar';
 import ThemeSwitch from './ThemeSwitch.vue';
@@ -73,7 +73,7 @@ watch(
   >
     <NText class="logo-container">
       <img :src="logo" alt="Mirror Logo" />
-      <span>NJU Mirror</span>
+      <span>重庆文理学院镜像站</span>
     </NText>
 
     <NButtonGroup style="height: 100%">
